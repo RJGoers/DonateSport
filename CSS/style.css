@@ -1,0 +1,27 @@
+
+.parentContainer {
+    display:grid;
+    background-color: red;
+}
+.second {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn {
+    float: left sticky;
+}
+.h2 {
+    font: red 
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+
+.partners {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
