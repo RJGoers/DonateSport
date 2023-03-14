@@ -1,0 +1,4 @@
+.mainClass {
+    display:flex;
+    flex-direction: row column-reverse ;
+}
