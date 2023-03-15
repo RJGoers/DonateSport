@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=redhatdisplay">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -11,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Red Hat Display' rel='stylesheet'>
     <style>
       body {
@@ -21,19 +21,20 @@
     <link rel="icon" type="image/x-icon" href="/images/Favicon.png">
   </head>
 
-  <body class="bg-danger">
+  <body class="container-fluid bg-danger">
 
   <header>
-    <div class="container-fluid p-5 bg-dark text-white text-center content-center">
-        <div class="row row-cols-4">
-        <img src="Images/DonateSportLogo (1).png">
+    <div class="container-fluid bg-dark text-white text-center">
+        <div class="row">
+        <div class="logo"><img src="Images/Resized logo.png"> 
         <h3> Trust us to easily donate your used sport items to kids in need.</h3>
-        <button type="button" class="btn btn-light btn-sm" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
-         DONATE!
-        </button>
+        <button type="button" class="btn btn-light btn-lg float-end">DONATE!</button>
+        <button type="button" class="btn btn-light btn-lg float-end">Log In</button>
+        </div>
+        </div>
     </div>
 
-      <div class="container-fluid p-5 bg-dark text-white text-center">
+      <div class="container-fluid p-2 bg-dark text-white text-center">
         <nav class="navbar bg-dark text-white">
                 <a class="nav-link active bg-secondary"  href="#">Home</a>
             </li>
@@ -72,7 +73,7 @@
               <li class="nav-item dropdown bg-light">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Contact Us</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="dropdown-menu" >
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><hr class="dropdown-divider"></li>
@@ -82,7 +83,7 @@
               <li class="nav-item dropdown bg-light">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Fundraising Merch</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="dropdown-menu" >
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><hr class="dropdown-divider"></li>
@@ -100,7 +101,7 @@
       </video>
     </div>
 
-    <div class="container-fluid bg-danger p-5 ">
+    <div class="firstContainer container-fluid bg-danger p-5 ">
       <div class="row">
         <div class="col-6 col-md-4" ><img src="./Images/DS_photo 1.webp" class="img-thumbnail img-fluid float-start" alt="group of youth volunteers standing together"></div>
         <div class="col-6 col-md-4"><img src="./Images/DS_photo 2.webp" class="img-thumbnail img-fluid mx-auto d-block" alt="three volunteers with face masks on holding boxes of donations"></div>
@@ -108,10 +109,11 @@
     </div>
 
     <div class="container-fluid content bg-danger p-5" >
-    <h2 class="sectionHeading text-center"> See Our Current Progress!</h2>
+    <h2 class="sectionHeading text-center text-white"> See Our Current Progress!</h2>
     <div class="row currentProgress">
 
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+      <div class="cardContainer">
         <div class="card" style="width: 18rem;">
         <img src="./images/DA_twitterphoto.jfif" class="card-img-top" class="img-thumbnail img-fluid" alt="...">
         <div class="card-body">
@@ -121,8 +123,8 @@
         </div>
       </div>
     
-      
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+      <div class="cardContainer">
         <div class="card" style="width: 18rem;">
         <img src="./Images/DS_Instagram_photo.PNG" class="card-img-top" class="img-thumbnail img-fluid" alt="...">
         <div class="card-body">
@@ -132,8 +134,8 @@
         </div>
       </div>
 
-      
-      <div class="cardContainer col-lg-3col-md-3 col-sm-12">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+      <div class="cardContainer">
         <div class="card" style="width: 18rem;">
         <img src="./Images/DS_facebook photo.jpg" class="card-img-top" class="img-thumbnail img-fluid" alt="...">
         <div class="card-body">
@@ -143,12 +145,12 @@
         </div>
       </div>
 
-        
-        <div class="cardContainer col-md-3 col-sm-12">
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <div class="cardContainer">
           <div class="card" style="width: 18rem;"></div>
-          <div class="column card stat" style="width: 18rem; background-color: teal;">
+          <div class="column card stat" style="width: 18rem; background-color: #33CCCC;">
           <div class="card-body">
-            <p class="card-text">Nearly $2 million in sporting goods distributd to kids in need!</p>
+            <p class="card-text">Nearly $2 million in sporting goods distributed to kids in need!</p>
           </div>
           </div>
           </div>
@@ -158,7 +160,7 @@
     </div>
 
       <div class="container-fluid bg-secondary">
-        <h4 class="sectionHeading text-center">Partners and Friends</h2>
+        <h2 class="sectionHeading text-center">Partners and Friends</h2>
        <img src="./Images/NCFootballClub.webp" class="img-thumbnail img-fluid">
        <img src="./Images/implus-footcare-squarelogo-1449060429081.webp"  class="img-thumbnail img-fluid">
         <img src="./Images/NCCenterNonProfits.webp" class="img-thumbnail img-fluid">
@@ -170,14 +172,15 @@
     </div>
 
 
-  <footer class="containter-fluid bg-dark text-white text-center" >
-    <p>Thanks for stopping by</p>
+  <footer class= "bg-dark text-white text-center" >
+    <footer class="row">
+    <h2>Thanks for stopping by</h2>
     <i></i>
     <i></i>
     <i></i>
-    <p class="contactUs float-start bg-danger">Contact Us</p>
-    <p class="phoneNumber float-ceter bg-danger">(919)424-7812</p>
-    <p class="email float-end bg-danger">info@donatesport.org</p>
+    <p class="contactUs float-start ">Contact Us</p>
+    <p class="phoneNumber float-center">(919)424-7812</p>
+    <p class="email float-end">info@donatesport.org</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

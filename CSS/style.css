@@ -1,6 +1,9 @@
 body {
     font-family: 'Red Hat Display';font-size: 22px;
 }
+.logo {
+    size: 50px;
+}
 .nav-item {
     size: 40px;
     color: black;
