@@ -4,12 +4,18 @@ body {
 .logo {
     size: 50px;
 }
+.nav-link {
+    background-color:#33CCCC;
+    size: 75px
+}
 .nav-item {
     size: 40px;
     color: black;
     background-color: white;
     font-weight: bold;
-    text-emphasis-color: teal;
+}
+.active {
+    background-color: #33CCCC;
 }
 .sectionHeading {
     font-weight: bold;
