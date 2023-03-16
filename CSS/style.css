@@ -1,18 +1,21 @@
 body {
     font-family: 'Red Hat Display';font-size: 22px;
 }
-.logo {
-    size: 50px;
+.header {
+    position: sticky;
 }
+
 .nav-link {
-    background-color:#33CCCC;
-    size: 75px
+    background-color:white;
+    font-size: 75px
 }
+
 .nav-item {
     size: 40px;
     color: black;
     background-color: white;
     font-weight: bold;
+    
 }
 .active {
     background-color: #33CCCC;
@@ -32,5 +35,32 @@ body {
     color:white;
 }
 .h3 {
-    size: 24px;
+    font-size: 24px;
+}
+
+.containerVideo {
+    justify-content: center;
+    margin: 50px;
+}
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 50px;
+    padding: 50px;
+}
+.donationSteps {
+    float: left;
+}
+
+.formContainer {
+    float: right;
+
+}
+
+
+.footerText {
+    font-weight: 600;
+    font-size: 40pt;
+
 }
