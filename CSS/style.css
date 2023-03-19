@@ -1,25 +1,53 @@
 body {
     font-family: 'Red Hat Display';font-size: 22px;
 }
+
+#mainGrid {
+    display:grid;
+}
 .header {
-    position: sticky;
+    display: grid;
+    position: fixed;
+    padding-bottom: 40px;
+    top:0;
+    margin-top: auto;
+
 }
 
+#logIn {
+    display: grid;
+    height: 100vh;
+    font-weight: 600;
+    justify-self: end;
+}
+
+.navbarDropdown {
+    display:inline-block;
+    text-emphasis: #33CCCC ;
+}
+.navbar {
+    display: inline-block;
+    background-color: black;
+    padding: 7px 25px;
+    color: black;
+}
 .nav-link {
     background-color:white;
-    font-size: 75px
+    color:black;
+    font-size: 75px;
 }
 
 .nav-item {
     size: 40px;
     color: black;
     background-color: white;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 .active {
     background-color: #33CCCC;
 }
+
+
 .sectionHeading {
     font-weight: bold;
     color: white;
@@ -39,8 +67,11 @@ body {
 }
 
 .containerVideo {
+    display: grid;
+    float: center;
     justify-content: center;
-    margin: 50px;
+    align-content: center;
+    margin: auto; 
 }
 .btn-group {
     display: flex;
