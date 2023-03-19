@@ -14,7 +14,8 @@
     <link href='https://fonts.googleapis.com/css?family=Red Hat Display' rel='stylesheet'>
     <style>
       body {
-    font-family: 'Red Hat Display';  
+    font-family: 'Red Hat Display';
+    
         }
     </style>
     <title>Donate Sport Nonprofit</title>
@@ -32,13 +33,13 @@
           <button type="button" class="btn btn-light btn-med" style="color:black; font-size: 16pt;">Log In</button>
   
           <div class="col align-center"> 
-          <button type="button" class="btn btn-light btn-lg" style= "background-color: #33CCCC;font-weight: 600; font-size: 20pt;" href="./donate.html">DONATE!</button>
+          <button type="button" class="btn btn-light btn-lg" style= "background-color: #33CCCC;font-weight: 600; font-size: 20pt;">DONATE!</button>
           </div>
           </div>
         </div>
 
         <div class="row justify-content-center">
-        <div class="logo"><img src="Images/Resized logo.png" > 
+        <div class="logo"><img src="Images/DonateSportLogo (1).png" > 
         <h3> Trust us to easily donate your used sport items to kids in need.</h3>
         </div>
       
@@ -46,8 +47,8 @@
     </div>
 
       
-        <nav class="navbar p-3" style="background-color: black; color:black;">
-                <a class="nav-link active" style="background-color: #33CCCC; color:black; font-weight: 600; font-size: 16pt;" href="#">Home</a>
+        <nav class="navbar" style="background-color: black; color:black;">
+                <a class="nav-link active" style="background-color: #33CCCC; color:black; font-weight: 600; font-size: 16pt;" href="./index.html">Home</a>
             </li>
               <li class="nav-item dropdown bg-light">
                 <a class="nav-link dropdown-toggle" style="color:black; font-weight: 600; font-size: 16pt;" href="#" id="navbarDropdown" role="button" > 
@@ -106,6 +107,7 @@
       </div>
     </header>
 
+    <body class="container-fluid mainGrid text-center bg-danger">
     <div>
         <h1 class="mainTitle text-center text-white"> Donations </h1>
         <h2 class="text-center text-white"> Are your closests filled with old sports jerseys?</h2>
@@ -120,9 +122,9 @@
     </div>
 
     <div class=" btn-group justify-content-center p-5" role="group">
-        <button type="button" class="btn btn-dark ">Donate Money Online</button>
-        <button type="button" class="btn btn-dark ">Donate Items Online</button>
-        <button type="button" class="btn btn-dark ">Donate Items In-Person</button>
+        <button type="button" class="btn btn-dark btn-lg ">Donate Money Online</button>
+        <button type="button" class="btn btn-dark btn-lg ">Donate Items Online</button>
+        <button type="button" class="btn btn-dark btn-lg ">Donate Items In-Person</button>
     </div>
     
 <div class="container p-5 text text-center" style="background-color: #C4C4C4">
@@ -134,8 +136,8 @@
 
 <div class="container p-5 text-center" style="background-color:#C4C4C4">
     <h2 class="donationContainer" style="font-weight:bold;"> How to Donate Items Online</h2>
-    <p style="font-size: smaller;"> We are a small, family run non-profit organization. We greatly appreciate your willingness to join our cause. 
-        We know it isn't feasible for everyone to make it to one of our drop boxes. You can mail in your items to our facility at the address below.</p>
+    <p style="font-size: smaller;"> We are a small, family run non-profit organization. <br> We greatly appreciate your willingness to join our cause. 
+      <br>We know it isn't feasible for everyone to make it to one of our drop boxes.  <br> You can mail in your items to our facility at the address below.</p>
 </div>
 
 <div class="donationContainer">
@@ -180,13 +182,18 @@
         <label for="exampleFormControlTextarea1" class="form-label">Email Address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1"placeholder="johnD@gmail.com" ></input>
     </div>
+    <div class="row">
     <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
         <label class="form-check-label" for="flexCheckDefault">
           I prefer to keep this donation anonymous.
         </label>
     </div>
-    </div> 
+    <button class="btn btn-primary" type="submit">
+      Submit
+    </button>
+  </div>
+  </div> 
 </div>
 
 <div class="container  text text-center" style="background-color: #C4C4C4">
@@ -196,7 +203,7 @@
     
     
     <div class="row"></div>
-    <div class="dropBox"><img src="./Images/DS_dropbox (1).webp" class="float-start img-thumbnail"></div>
+    <div class="col dropBox"><img src="./Images/DS_dropbox (1).webp" class="float-start img-thumbnail"></div>
     <div class="col float-start">
     <ps style="font-weight:bolder;"> WRAL Soccer Park</p>
     <p> 7700 Perry Creek Road</p>
@@ -221,29 +228,34 @@
     <p> Raleigh, NC</p>
     </div>
 
-</div>
+   </div>
+  </body>
 
 
-
-    <footer class="containter-fluid bg-dark text-white text-center" >
-        <p>Thanks for stopping by</p>
-        <i></i>
-        <i></i>
-        <i></i>
-        <p class="contactUs float-start bg-danger">Contact Us</p>
-        <p class="phoneNumber float-ceter bg-danger">(919)424-7812</p>
-        <p class="email float-end bg-danger">info@donatesport.org</p>
-      </footer>
+  <footer class="container-fluid bg-dark text-white text-center 9" >
+    <h2>Thanks for stopping by!</h2>
+  <div class="row"style="justify-content:space-evenly">
+    <div class="col-lg-2 col-md-2 col-sm-6" style="justify-content:space-evenly" >  <img src="./Images/Group 211.png" alt="Twitter icon"></div>
+    <div class="ccol-lg-2 col-md-2 col-sm-6" > <img src="./Images/Group 212.png" alt="Facebook Icon"> </div>
+    <div class="col-lg-2 col-md-2 col-sm-6" > <img src="./Images/Group 213.png" alt="Instagram Icon"> </div>
     
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-    </body>
-    </html>
+  <div class="row" style="justify-content:space-evenly;">
+    <div class="col-lg-6 col-md-6 col-sm-12" style="justify-content:start;">
+    <div><p class="footerText contactUs">Contact Us:</p></div>
+    <div><p class="footerText phoneNumber">(919)424-7812</p></div>
+    <div><p class="footerText email ">info@donatesport.org</p></div>
+  </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
+</body>
+</html>

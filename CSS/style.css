@@ -66,6 +66,12 @@ body {
     font-size: 24px;
 }
 
+.p {
+    display: grid;
+    position: relative;
+    font-size: 16pt;
+}
+
 .containerVideo {
     display: grid;
     float: center;
