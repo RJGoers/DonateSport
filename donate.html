@@ -13,10 +13,24 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Red Hat Display' rel='stylesheet'>
     <style>
-      body {
+      .body {
     font-family: 'Red Hat Display';  
         }
+        .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+        }  
+      .btn-group {
+        display: inline-flex;
+        vertical-align: middle;
+    } 
+    .btn-dark {
+      flex: 1 1 auto;
+    }
     </style>
+    
     <title>Donate Sport Nonprofit</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon2.png">
   </head>
@@ -69,10 +83,14 @@
     <div style="padding-top:40px;">
         <h2 class="mainTitle text-center text-white"> For your convenience, we offer 3 ways to donate:</h2>
     
-    <div class=" btn-group justify-content-center p-5" role="group">
-        <button type="button" class="btn btn-dark btn-lg ">Donate Money Online</button>
-        <button type="button" class="btn btn-dark btn-lg ">Donate Items Online</button>
-        <button type="button" class="btn btn-dark btn-lg ">Donate Items In-Person</button>
+    <div class=" btn-group justify-content-center p-5" style="display: inline-flex;
+    vertical-align: middle;" role="group">
+        <button type="button" class="btn btn-dark btn-lg"  style="flex: 1 1 auto; display: inline-flex;
+        vertical-align: middle;">Donate Money Online</button>
+        <button type="button" class="btn btn-dark btn-lg"style="flex: 1 1 auto; display: inline-flex;
+        vertical-align: middle;">Donate Items Online</button>
+        <button type="button" class="btn btn-dark btn-lg" style="flex: 1 1 auto; display: inline-flex;
+        vertical-align: middle;">Donate Items In-Person</button>
     </div>
   </div>
     

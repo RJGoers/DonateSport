@@ -10,10 +10,25 @@ body {
     position: fixed;
     padding-bottom: 40px;
     top:0;
-    margin-top: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
-
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-group {
+    display: inline-flex;
+    vertical-align: middle;
+} 
+.btn-dark {
+  flex: 1 1 auto;
+}
 #logIn {
     display: grid;
     height: 100vh;
@@ -72,6 +87,7 @@ body {
     font-size: 16pt;
 }
 
+
 .containerVideo {
     display: grid;
     float: center;
@@ -88,6 +104,7 @@ body {
     float: right;
 
 }
+
 
 
 .footerText {
