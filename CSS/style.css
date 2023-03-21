@@ -24,9 +24,11 @@ body {
 }
 .btn-group {
     display: inline-flex;
+    position:static;
     vertical-align: middle;
 } 
 .btn-dark {
+  position:static;
   flex: 1 1 auto;
 }
 #logIn {
